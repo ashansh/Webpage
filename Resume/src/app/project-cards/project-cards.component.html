@@ -1,0 +1,36 @@
+<div class="container position">
+  <div class="row">
+    <div style="text-align: center;">
+      <div class="project-heading">Projects <i class="fas fa-project-diagram"></i> | Research Papers <i class="fas fa-file-alt"></i> </div>
+      <div *ngFor="let data of projectDataArray">
+        <div class="col-md-4">
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <div class="card-header">
+                  <span>{{ data.title }}</span>
+                </div>
+                <img
+                  src="{{ data.imageUrl }}"
+                  alt="Avatar"
+                  style="width: 350px; height: 200px;"
+                />
+                <div class="insert-text">
+                  {{ data.introduction }}
+                </div>
+              </div>
+              <div class="flip-card-back">
+                <p>{{ data.description }}</p>
+                <span>
+                  <a href="{{ data.link }}" target="_blank" 
+                    ><i class="logo {{data.sourceClass}}"></i>{{data.source}}</a
+                  >
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
