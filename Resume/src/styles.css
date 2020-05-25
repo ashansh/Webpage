@@ -4,4 +4,9 @@
 html{
     scroll-behavior: smooth;
     overflow-x: hidden;
+    cursor: context-menu;
+}
+
+body {
+    overflow-x: hidden;
 }

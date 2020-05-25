@@ -49,7 +49,6 @@ a:hover {
   font-size: 50px;
   background-color: transparent;
   opacity: 0.9;
-  font-family: monospace;
   }
 
 .location {
@@ -74,117 +73,7 @@ a:hover {
    width: 32%;
   }
 }
- 
- 
-  html, body { background: #777; padding: 20px 0; }	
-  h5 { font-weight: bold; }
-  
-          #resume-container {  
-              background: rgba(255,255,255,1); 
-              color: black !important;
-              opacity: 1 !important; 
-              margin-bottom: 40px; 
-              padding-bottom: 20px;  
-              border-radius: 7px; 
-          }
           
-          #resume-container a { color: black; text-decoration: underline; }
-          
-          #resume-container hr { border-bottom: 2px solid black; }
-          
-          #resume-container header { 
-              background: #4caf7c; 
-              padding: 40px 0 20px; 
-              position: relative;
-              z-index: 1;
-              border-top-left-radius: 7px; 
-              border-top-right-radius: 7px; 
-          }
-          
-          
-          #resume-container header:after {
-              background: inherit;
-              content: '';
-              display: block;
-              height: 50%;
-              left: 0;
-              position: absolute;
-              right: 0;
-              z-index: -1;
-          }
-          
-          
-  
-          
-  
-         
-          
-          #resume-container .contact-info { text-align: center; padding: 10px 0; margin: 20px 0; color: white; }
-          #resume-container .contact-info a  { color: white; }
-          
-          
-          #resume-container #summary { padding: 50px 10px 0; }
-          #resume-container #summary .summary { padding: 0 20px; }
-          
-          #resume-container .skill-text { text-align: center; }
-          
-          #resume-container .contact-info .email, #resume-container .contact-info .phone { margin-bottom: 20px; }
-          
-          
-          #experience { padding: 0 20px; }
-          
-          #experience h2, #experience h3, #experience h4 { margin: 0 !important; }
-      
-          #experience .past-employer { padding: 20px 0; }
-          #experience .employer-img { display: block; margin: 0 auto; padding-top: 20px; }
-          
-          
-          #education { padding: 0 20px; }
-          
-          #education .past-school { padding: 20px 0; }
-          
-          #education .past-school .left { text-align: center; }
-          
-          #computers { padding: 0 20px; }
-          
-          
-          #resume-container .pills { padding-left: 0; }
-          #resume-container .pills a { color: black; }
-          #resume-container .pills li { 
-              box-shadow: 0px 1px 1px #CCC;
-              transition: all 0.07s ease 0s;
-              display: inline-block;
-              border: 0px none;
-              margin: 0px 5px 5px 0px;
-              padding: 0px;
-              font-size: 13px;
-              line-height: 17px;
-              color: black;
-              font-weight: normal;
-              background: #F1F1F1 none repeat scroll 0% 0%;
-              border-radius: 2px;
-              text-decoration: none;
-          }
-          #resume-container .pills li .wrap {
-              display: inline-block;
-              padding: 5px 10px 4px;
-          }
-          
-          #references { padding: 0 20px; margin: 20px 0; text-align: center; }
-          
-          
-          
-          #resume-container .linkedin-link { margin-bottom: 10px; }
-          #resume-container .linkedin-link span { display: block; color: black; text-align: center; }
-          
-          
-  
-  
-  
-  
-  /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-      ~~~~~MEDIA QUERIES~~~~
-      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
       @media only screen and ( min-width: 1100px ) and ( max-width: 1405px) {
           
       }
@@ -269,6 +158,44 @@ h2 {
   z-index: 4;
 }
 
+.copyright-footer {
+  margin: 0% 11.5% 0.3% 11.5%;
+  background-color: #d3d3d3;
+}
+
 .cover-picture {
   background-image: url('../assets/images/northeastern_background5.png');
+}
+
+.hobbies-title {
+  text-align: center;
+  font-size: 40px; 
+  color: #337ab7; 
+  margin-bottom: 1%;
+}
+
+@media only screen and (max-width: 420px) {
+  .resume-name {
+    color: #5f5f5f;
+    font-size: 35px;
+  }
+
+  .resume-portfolio-pic {
+    margin-top: 1%;
+    margin-left: 20%;
+  }
+
+  .copyright-footer {
+    margin : 0;
+    text-align: center;
+  }
+
+  .hobbies-title {
+    text-align: center;
+    font-size: large;
+  }
+
+  h1 {
+    font-size: large;
+  }
 }

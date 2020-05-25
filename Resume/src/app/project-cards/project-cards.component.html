@@ -20,10 +20,13 @@
                 </div>
               </div>
               <div class="flip-card-back">
-                <p>{{ data.description }}</p>
+                <div class="card-header-back">
+                  <span>{{ data.title }}</span>
+                </div>
+                <p style="font-size: 13px;">{{ data.description }}</p>
                 <span>
-                  <a href="{{ data.link }}" target="_blank" 
-                    ><i class="logo {{data.sourceClass}}"></i>{{data.source}}</a
+                  <a href="{{ data.link }}" target="_blank"
+                    ><i class="logo {{data.sourceClass}}"> {{data.source}}</i></a
                   >
                 </span>
               </div>

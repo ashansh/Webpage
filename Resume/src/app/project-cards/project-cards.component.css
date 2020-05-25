@@ -2,7 +2,6 @@
     background-color: white;
     width: 375px;
     height: 375px;
-    /* border: 1px solid #f1f1f1; */
     padding-right: 23px;
     perspective: 1000px; /* Remove this if you don't want the 3D effect */
     margin-bottom: 5%;
@@ -39,7 +38,7 @@
   
   /* Style the back side */
   .flip-card-back {
-    padding: 8%;
+    padding: 4% 8%;
     text-align: justify;
     background-color: whitesmoke;
     color: #8f8f8f;
@@ -60,11 +59,29 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    color: #337ab7;
+  }
+
+  .card-header-back {
+    height: 18%;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 6%;
+    text-align: center;
+    color: #337ab7;
   }
 
   .project-heading {
-    font-family: Bradley Hand, cursive;
     margin-bottom: 20px;
     font-size: xx-large;
     color: #337ab7;
   }
+
+  @media only screen and (max-width: 420px) {
+    .project-heading {
+      margin-top: 20px;
+      font-size: large;
+    }
+}

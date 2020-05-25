@@ -3,6 +3,10 @@
     padding: 20px 0 20px;
     position: relative;
   }
+
+  .nucps {
+    height: 105px !important;
+  }
   .timeline:before {
     top: 0;
     bottom: 0;
@@ -127,7 +131,7 @@
   }
 
   .north-eastern-img {
-    height: 90px;
+    height: 70px;
   }
 
   .ibm-img {

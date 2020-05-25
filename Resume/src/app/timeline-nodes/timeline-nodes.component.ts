@@ -1,13 +1,11 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-timeline-nodes',
   templateUrl: './timeline-nodes.component.html',
   styleUrls: ['./timeline-nodes.component.css']
 })
-export class TimelineNodesComponent implements OnInit {
-
-  constructor() { }
+export class TimelineNodesComponent {
 
   public timeLineDataArray = [
     {
@@ -29,14 +27,14 @@ export class TimelineNodesComponent implements OnInit {
       year: '2019',
       position: 'Graduate Teaching Assistant - Data Management & Big Data',
       institute: 'Northeastern University College of Professional Studies',
-      duration: 'May 2019 - Jul 2020'
+      duration: 'Jan 2020 - Mar 2020'
     },
     {
-      month: 'Aug',
+      month: 'Sep',
       year: '2018',
       position: 'Master of Professional Studies, Analytics',
       institute: 'Northeastern University',
-      duration: 'Aug 2018 - Apr 2020'
+      duration: 'Sep 2018 - Mar 2020'
     },
     {
       month: 'Dec',
@@ -56,19 +54,15 @@ export class TimelineNodesComponent implements OnInit {
       month: 'Aug',
       year: '2014',
       position: 'Master of Technology, Computer Science',
-      institute: 'Indian Institute of Technology Bhubaneswar',
-      duration: 'Aug 2014 - Apr 2016'
+      institute: 'International Institute of Information Technology, Bhubaneswar',
+      duration: 'Aug 2014 - Jun 2016'
     },
     {
       month: 'Aug',
       year: '2010',
       position: 'Bachelor of Engineering, Computer Science',
-      institute: 'LNCT - Rajiv Gandhi Proudyogiki Vishwavidyalaya',
-      duration: 'Aug 2010 - Apr 2014'
+      institute: 'Rajiv Gandhi Proudyogiki Vishwavidyalaya',
+      duration: 'Aug 2010 - Jun 2014'
     }
   ]
-
-  ngOnInit() {
-  }
-
 }

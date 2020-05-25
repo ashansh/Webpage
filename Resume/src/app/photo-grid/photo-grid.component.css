@@ -53,10 +53,17 @@
  .img_1-6{background-image:url('../../assets/images/img_6.jpg');}
  .img_1-7{background-image:url('../../assets/images/img_7.jpg');}
  .img_1-8{background-image:url('../../assets/images/img_8.jpg');}
- .img_1-9{background-image:url('../../assets/images/img_9.png');}
+ .img_1-9{background-image:url('../../assets/images/img_9.jpg');}
 
   .grid {
     display: grid;
     grid-gap: 1px;
     grid-template-columns: repeat(3, 1fr);
   }
+
+  @media only screen and (max-width: 420px) {
+    .square {
+      height: 110px;
+      width: 110px;
+    }
+}
