@@ -20,12 +20,12 @@ export class TimelineNodesComponent {
       year: '2019',
       position: 'Data Science Engineer Intern',
       institute: 'Mactores Information Technology & Services',
-      duration: 'Jul 2019 - Sep 2020'
+      duration: 'Jul 2019 - Sep 2019'
     },
     {
       month: 'May',
       year: '2019',
-      position: 'Graduate Teaching Assistant - Data Management & Big Data',
+      position: 'Graduate Teaching Assistant',
       institute: 'Northeastern University College of Professional Studies',
       duration: 'Jan 2020 - Mar 2020'
     },

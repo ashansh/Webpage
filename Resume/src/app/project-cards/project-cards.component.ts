@@ -46,7 +46,7 @@ export class ProjectCardsComponent {
     {
       title: 'Internship and Co-op as a Triple Capital Investment in Employability',
       imageUrl : 'assets/images/intern.jpg',
-      introduction: 'The research involves the analysis of EMPLOYERS’ PERSPECTIVE on the impact of the internship and coop program on the employability of the students or job seekers.',
+      introduction: 'The research involves the analysis of employers` perspective on the impact of the internship and coop program on the employability of the students or job seekers.',
       description: 'The fundamental analysis in this research involves the identification of the keywords used by the people (authors) while discussing the internship program in their articles published on business-related and business-targeting public platforms. The goal is to analyze the keywords based on the BE-EDGE methodology and see how far the internship program helps the students in developing their Personal Capital, Social Capital, and Professional Capital.',
       link: 'https://www.be-edge.com/for-educators-internship-and-co-op-as-a-triple-capital-investment-in-employability/',
       source: 'Be Edge',
